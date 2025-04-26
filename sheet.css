@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff4757;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd59;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+.main-logo {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.hero pre {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero input {
+    padding: 12px;
+    width: 60%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.dishes {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+}
+
+.dishes h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff4757;
+}
+
+.dish-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.dish-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 240px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.features-section {
+    padding: 50px 20px;
+}
+
+.features-section h2 {
+    text-align: center;
+    color: #ff4757;
+    margin-bottom: 10px;
+}
+
+.features-section p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: #fff0f3;
+    padding: 20px;
+    border-radius: 12px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #2f3542;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
